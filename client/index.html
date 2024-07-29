@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Game reviews </title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app"></div>
+      <h1> Leave a review! </h1>
+  <form id="form">
+        <label for="username"> Username</label>
+        <input type="text" name="username" placeholder="Your username" required>
+        <textarea name="content" id="content" placeholder="Your review" required?>
+    </textarea>
+    <fieldset class="feedback">
+      <input type="radio" id="thumbsUp" name="feedback" value="👍" checked>
+      <label for="thumbsUp"> 👍</label>
+      <input type="radio" id="thumbsDown" name="feedback" values="👎" checked>
+      <label for="thumbsDown">👎</label>
+    </fieldset>
+
+  </form>
+
+
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
