@@ -8,7 +8,7 @@ const formData = new FormData (form);
 const formValues = Object.fromEntries(formData);
 
 
-const response = await fetch("http://localhost:8080/joke", {
+const response = await fetch("https://guestbook-ky49.onrender.com/joke", {
   method: "POST",
   headers: {
     "Content-Type": "application/json",
